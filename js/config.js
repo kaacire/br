@@ -332,9 +332,9 @@ Diario.config = {
     },
     {
       id: "memoria-12",
-      titulo: "It's For You",
-      nota: "para guardar no coração",
-      texto: "As palavras podem expressar o que sentimos, mas nada substitui a felicidade de poder estar ao lado de quem queremos.",
+      titulo: "Memories in the Rain",
+      nota: "Even if is a sunny day...",
+      texto: "Se eu fosse a chuva, poderia unir meu coração ao seu?<br>Assim como ele une os eternamente distantes céu e terra.<br A distância pode separar dois mundos, mas o coração sempre procura uma maneira de se aproximar de quem é especial.>",
       ilustracao: "livro",
       imagem: "assets/illustrations/memoria-08.jpg",
       fundo: null,
