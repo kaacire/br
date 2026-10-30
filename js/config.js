@@ -195,6 +195,25 @@ Diario.config = {
   },
 
   /* ========================================================
+     7b. ÚLTIMA SEÇÃO: O CÉU
+     --------------------------------------------------------
+     Depois da página final, o site sobe para um céu de espaço
+     com estrelas e constelações. No meio aparece o título e,
+     abaixo, as estrelas formam um bolo com uma vela.
+     ======================================================== */
+
+  ceu: {
+    /* false = desliga a seção (o alento termina na página final) */
+    ativo: true,
+
+    /* O texto que aparece no meio do céu */
+    titulo: "Feliz aniversário!",
+
+    /* Duração da subida (o mundo de papel saindo por cima) */
+    subidaMs: 2200,
+  },
+
+  /* ========================================================
      8. OS 12 CONTEÚDOS (um por porta)
      --------------------------------------------------------
      A porta 01 corresponde ao 1º item da lista, a 02 ao 2º...
@@ -214,9 +233,9 @@ Diario.config = {
   conteudos: [
     {
       id: "memoria-01",
-      titulo: "Memories in the Rain",
-      nota: "poema",
-      texto: "Se eu fosse a chuva, poderia unir meu coração ao seu?<br>Assim como ela une os eternamente distantes céu e terra.",
+      titulo: "O jardim",
+      nota: "Sunny Day",
+      texto: "Com seu regador nas mãos, você cuidava das plantas do jardim, molhando cada uma com atenção. Entre a terra, as folhas e as flores, aquele pequeno espaço fazia parte dos seus dias de infância.",
       ilustracao: "flor",
       imagem: "assets/illustrations/memoria-07.jpg",
       fundo: null,
@@ -224,7 +243,7 @@ Diario.config = {
     {
       id: "memoria-02",
       titulo: "Night of Wijnruit",
-      nota: "poema",
+      nota: "See the Stars?",
       texto: "Os raios de sol que aos poucos brilham<br>Os raios de sol que aos poucos banham a Terra apagam as pegadas deixadas na fina camada de neve.<br>Não tema ser iludida, pois, mesmo que o mundo esteja repleto de decepções, ainda existem aqueles que desejam proteger seu sorriso.",
       ilustracao: "coracao",
       imagem: "assets/illustrations/memoria-04.jpg",
@@ -232,18 +251,18 @@ Diario.config = {
     },
     {
       id: "memoria-03",
-      titulo: "Medo",
-      nota: "poema",
-      texto: "Se minhas palavras tomassem forma,<br>seria como se meu fracasso chegasse até você, parado na escuridão.",
+      titulo: "Sky Fall",
+      nota: "it's getting later",
+      texto: "A neve caía lentamente, cobrindo as ruas, os telhados e os jardins de branco.<br>A paisagem se transformava diante dos seus olhos, e o inverno trazia uma beleza diferente aos lugares que você conhecia.",
       ilustracao: "estrela",
       imagem: "assets/illustrations/memoria-01.jpg",
       fundo: null,
     },
     {
       id: "memoria-04",
-      titulo: "My Last Words",
-      nota: "poema",
-      texto: "A menos que eu agarre a espada, eu não poderei proteger você.<br>Enquanto agarro a espada, eu não posso abraçar você.",
+      titulo: "O parquinho",
+      nota: "so beautiful",
+      texto: "No parquinho, as tardes eram preenchidas por brincadeiras, balanços e descobertas. Cada brinquedo oferecia uma nova aventura, e aquele espaço se tornava um mundo inteiro para explorar, correr e se divertir.",
       ilustracao: "arvore",
       imagem: "assets/illustrations/memoria-12.jpg",
       fundo: null,
@@ -251,7 +270,7 @@ Diario.config = {
     {
       id: "memoria-05",
       titulo: "Nós",
-      nota: "poema",
+      nota: "No dia em que vi<br>mil pôr do sois",
       texto: "Como um: estamos entrelaçados.<br>Como dois: não compartilhamos uma mesma forma.<br>Como três: não temos olhos.<br>Como quatro: temos esperança.<br>No quinto: é onde está o coração.",
       ilustracao: "portao",
       imagem: "assets/illustrations/memoria-03.jpg",
@@ -260,7 +279,7 @@ Diario.config = {
     {
       id: "memoria-06",
       titulo: "All the Words",
-      nota: "poema",
+      nota: "For all",
       texto: "As palavras são a melhor forma de comunicação.<br>“Te amo”, “te quero”, “te adoro”.<br>De que me serve tudo isso... se não te tenho ao meu lado?",
       ilustracao: "chave",
       imagem: "assets/illustrations/memoria-10.jpg",
@@ -268,9 +287,9 @@ Diario.config = {
     },
     {
       id: "memoria-07",
-      titulo: "Memories",
-      nota: "a distância não decide tudo",
-      texto: "A distância pode separar dois mundos, mas o coração sempre procura uma maneira de se aproximar de quem é especial.",
+      titulo: "Aprendendo com a avó",
+      nota: "kind nostalgic, isn't?",
+      texto: "Ao lado da sua avó, você aprendia a costurar, conhecendo os tecidos, as linhas e os pontos. Entre uma tarefa e outra, compartilhavam momentos que faziam parte da sua história e das lembranças guardadas daquele tempo.",
       ilustracao: "sol",
       imagem: "assets/illustrations/memoria-02.jpg",
       fundo: null,
@@ -304,9 +323,9 @@ Diario.config = {
     },
     {
       id: "memoria-11",
-      titulo: "Nós",
+      titulo: "Entre os Telhados e o Céu",
       nota: "pequenas partes de quem você é",
-      texto: "Duas pessoas podem ser diferentes e viver em mundos distintos, mas ainda encontrar esperança e conexão uma na outra.",
+      texto: "Você subia nos telhados para observar o céu, encontrando um lugar de onde podia olhar o mundo de outra perspectiva.<br>  Entre as casas e as nuvens, aqueles momentos faziam parte das suas aventuras de infância.",
       ilustracao: "envelope",
       imagem: "assets/illustrations/memoria-09.jpg",
       fundo: null,
